@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Owly - Cerca Libri</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container">
         <h1>Owly 📚</h1>
-        <input type="text" id="searchInput" placeholder=""Inserisci una categoria (es. fantasy)"">
+        <input type="text" id="searchInput" placeholder="Search by genre (e.g. fantasy)">
         <button id="searchBtn">Search</button>
+        <div id="loader" style="display: none;">🦉 Finding the best books for you...</div>
+
 
         <div id="bookList"></div>
         <div id="bookDetails"></div>
