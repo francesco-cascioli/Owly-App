@@ -34,7 +34,7 @@ This project simulates a real-world development task and was built from scratch 
 📁 css └── style.css 📁 js ├── api.js └── main.js 📁 dist └── bundle.js 📄 index.html 📄 webpack.config.js 📄 .env 📄 README.md
 
 🌐 Live Demo
-👉 Click here to try it online
+👉 [Click here to try it online](https://francesco-cascioli.github.io/Owly-App/)
 
 📄 License
 Project developed for educational purposes – not for commercial use.
